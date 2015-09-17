@@ -94,7 +94,7 @@ hist(steps_per_day_all$total_steps, xlab="Total steps per day NAs filled in", ma
 
 The mean and median values remain nearly the same after filling in the NAs. The total daily steps value remains the same for most of the data except for the central values which gets increased because NAs were filled in with the central(average) values. Here's the comparison of the two in the plot.
 
-``` {r}
+``` {r echo=TRUE}
 par(mfrow=c(1,2))
 hist(steps_per_day_all$total_steps, xlab="Total steps per day NAs filled in", main="")
 hist(steps_per_day$total_steps, xlab="Total steps per day", main="")
